@@ -32,4 +32,5 @@ film_per_actor_related AS (SELECT
 						    )
 SELECT 
       *
-FROM film_per_actor_related;
+FROM film_per_actor_related
+WHERE rnk = 1;
